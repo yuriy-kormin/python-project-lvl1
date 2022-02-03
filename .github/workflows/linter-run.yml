@@ -9,8 +9,9 @@ jobs:
             - name: setup python 
               uses: actions/setup-python@v2
             - name: run python dependencies 
-              run: |
-                      pip install poetry
-                      make install
+               run: |
+                  pip install poetry
+                  make install
             - name: executing make
-               run: make lint
+               run: |
+                  make lint
