@@ -15,22 +15,25 @@ def main():
         # print (f'correct answers {correct_answers}')
         print("Question: " + str(digit))
         answer = prompt.string(empty=True, prompt='Your answer: ')
-        if(digit % 2 and answer == "no") or (not(digit % 2) and answer == "yes"):
-            print ("Correct!")
+        if(
+            (digit % 2 and answer == "no") or
+            (not(digit % 2) and answer == "yes")
+          ):
+            print("Correct!")
             test += 1
             correct_answers += 1
             continue
         elif digit % 2:
-          right_answer = 'no'
+            right_answer = 'no'
         else:
-          right_answer = 'yes'
-        print ("'%s' is wrong answer ;(. Correct answer was '%s'." % (answer,right_answer))
+            right_answer = 'yes'
+        print("'%s' is wrong answer ;(. Correct answer was '%s'."
+              % (answer, right_answer))
         break
-        
     if correct_answers == test_num:
-      print (f"Congratulations, {name}!")
+        print(f"Congratulations, {name}!")
     else:
-      print (f"Let's try again, {name}!")
+        print(f"Let's try again, {name}!")
 
 
 if __name__ == '__main__':
