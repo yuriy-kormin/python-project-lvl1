@@ -15,6 +15,7 @@ def logic(rules, qa):
         attempts - int How many times we need to ask user
 
     '''
+    # print (qa)
     user = welcome_user()
     print(f"Hello, {user}!")
     correct_answers = 0
