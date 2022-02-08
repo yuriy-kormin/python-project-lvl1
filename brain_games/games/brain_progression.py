@@ -16,7 +16,7 @@ def main():
     rules = "What number is missing in the progression?"
     qa = []
     for i in range(3):
-        start= randint(1, 50)
+        start = randint(1, 50)
         step = randint(1, 9)
         length = randint(5, 10)
         missing_pos = randint(0, length-1)
@@ -26,12 +26,12 @@ def main():
             q = str(start)
         cur_val = start
         answer = start
-        for i in range (1,length):
+        for i in range(1, length):
             cur_val += step
             if i == missing_pos:
                 q += " " + ".."
                 answer = cur_val
-            else:    
+            else:
                 q += " " + str(cur_val)
         qa.append([q, answer])
     logic(rules, qa)
