@@ -18,6 +18,7 @@ def logic(rules, qa):
     # print (qa)
     user = welcome_user()
     print(f"Hello, {user}!")
+    print(rules)
     correct_answers = 0
     for q in qa:
         answer = question(q[0])
