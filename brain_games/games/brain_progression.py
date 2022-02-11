@@ -9,7 +9,7 @@ def nod(a, b):
             a = a % b
         else:
             b = b % a
-    return a+b
+    return a + b
 
 
 def main():
@@ -19,7 +19,7 @@ def main():
         start = randint(1, 50)
         step = randint(1, 9)
         length = randint(5, 10)
-        missing_pos = randint(0, length-1)
+        missing_pos = randint(0, length - 1)
         if missing_pos == 0:
             q = ".."
         else:
