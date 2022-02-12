@@ -14,6 +14,3 @@ def prime():
     ''' Generate digit and returm is it prime '''
     digit = randint(1, 50)
     return [digit, is_prime(digit)]
-
-
-

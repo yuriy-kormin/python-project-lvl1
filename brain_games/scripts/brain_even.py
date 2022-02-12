@@ -2,6 +2,7 @@
 from brain_games.games.even import even
 from brain_games.scripts.games_logic import engine
 
+
 def main():
     RULES = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
     engine(RULES, even)
