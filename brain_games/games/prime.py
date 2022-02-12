@@ -4,9 +4,10 @@ from brain_games.scripts.games_logic import generate
 
 def is_prime(number):
     ''' Check number is prime '''
-    for i in range(2, number):
-        if not number % i:
-            return "no"
+    if number != 1:
+        for i in range(2, number):
+            if not number % i:
+                return "no"
     return "yes"
 
 
