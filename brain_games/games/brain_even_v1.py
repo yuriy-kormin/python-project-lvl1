@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 from random import randint
-from brain_games.scripts.cli import welcome_user
+
 import prompt
+
+from brain_games.scripts.cli import welcome_user
 
 
 def main():
