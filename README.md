@@ -24,22 +24,10 @@ git clone https://github.com/yuriy-kormin/python-project-lvl1.git
 python3 brain_games/python-project-lvl1/scripts/brain_calc
 ```
 ## Example of project runs: 
-<H3> Brain-even </H3>
-
-[![asciicast](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz.svg)](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz)
-
-<H3> Brain-calc </H3>
-
-[![asciicast](https://asciinema.org/a/469445.svg)](https://asciinema.org/a/469445)
-    
-<H3> Brain-gcd </H3>
-
-[![asciicast](https://asciinema.org/a/469451.svg)](https://asciinema.org/a/469451?t=51)
-    
-<H3> Brain-progression </H3>    
-
-[![asciicast](https://asciinema.org/a/469458.svg)](https://asciinema.org/a/469458)
-
-<H3> Brain-prime </H3>    
-
-[![asciicast](https://asciinema.org/a/469459.svg)](https://asciinema.org/a/469459)
+<ul>
+    <li><a href ="https://asciinema.org/a/l4Qnx6DoTCFgXwty7qsi0B3E8">brain-even</a></li>
+    <li><a href ="https://asciinema.org/a/yXU65Tae5oUFJfQxeanG2D9mO">brain-calc</a></li>
+    <li><a href ="https://asciinema.org/a/AsTYWKeMuD331jRarrcinkGHl">brain-gcd</a></li>
+    <li><a href ="https://asciinema.org/a/x1cpPnPtlbVCP4hozfj2Gp53r">brain-progression</a></li>
+    <li><a href ="https://asciinema.org/a/DqRS1Z8Ew0cxXXzHjtGj4ii2U">brain-prime</a></li>
+</ul>
