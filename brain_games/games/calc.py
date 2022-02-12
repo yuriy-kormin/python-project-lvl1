@@ -3,9 +3,7 @@ from random import randint
 
 
 def calc():
-    ''' 
-    Generate math expression and calculate it
-    '''
+    ''' Generate math expression and calculate it '''
     operation = ["+", "-", "*"]
     operation_type = randint(0, 2)
     digit1 = randint(1, 20)

@@ -3,9 +3,7 @@ from random import randint
 
 
 def progression():
-    '''
-    Generate arithmetic progression with missng member
-    '''
+    '''Generate arithmetic progression with missng member'''
     start = randint(1, 50)
     step = randint(1, 9)
     length = randint(5, 10)

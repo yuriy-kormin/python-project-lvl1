@@ -16,9 +16,7 @@ def fill_question_array(logic_function,attempts=3):
 def engine(rules, function):
     '''
         rules - string to show user to explain game rules
-        qa: list questions-answers. format is [[q1,a1],[q2,a2]...]
-        attempts - int How many times we need to ask user
-
+        function - name of def, which make logic of game
     '''
     # print (qa)
     questions_answers=fill_question_array(function)
