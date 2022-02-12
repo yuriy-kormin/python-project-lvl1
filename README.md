@@ -1,8 +1,7 @@
+#Brain games
 <a href="https://codeclimate.com/github/yuriy-kormin/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5e7bda007d52003e2d00/maintainability" /></a>
 ![linter-run](https://github.com/yuriy-kormin/python-project-lvl1/actions/workflows/linter-run.yml/badge.svg)
-
-#Brain games
-Several simple console games
+<br><br>Several simple console games
 ##Installation
 You need Python 3.8 and prompt module
 ```bash
