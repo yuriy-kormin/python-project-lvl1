@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "simple console-running games"
 authors = ["Yuriy Kormin  <yuriy.kormin@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+        "Environment :: Console"
+]
+repository = "https://github.com/yuriy-kormin/python-project-lvl1"
+
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
