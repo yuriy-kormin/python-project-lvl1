@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from random import randint
+from brain_games.scripts.games_logic import generate
 
 
 def is_prime(number):
@@ -12,5 +12,5 @@ def is_prime(number):
 
 def prime():
     ''' Generate digit and returm is it prime '''
-    digit = randint(1, 50)
+    [digit] = generate(1, 50)
     return [digit, is_prime(digit)]

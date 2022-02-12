@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-from random import randint
+from brain_games.scripts.games_logic import generate
 
 
 def calc():
     ''' Generate math expression and calculate it '''
     operation = ["+", "-", "*"]
-    operation_type = randint(0, 2)
-    digit1 = randint(1, 20)
-    digit2 = randint(1, 20)
+    [digit1, digit2] = generate(2, 20)
+    [operation_type] = generate(1, 2)
     question = f"{digit1} {operation[operation_type]} {digit2}"
     return [question, eval(question)]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from random import randint
+from brain_games.scripts.games_logic import generate
 
 
 def nod(a, b):
@@ -14,6 +14,5 @@ def nod(a, b):
 
 def gcd():
     ''' Generate 2 digits and return greatest common divisor of it '''
-    digit1 = randint(1, 50)
-    digit2 = randint(2, 50)
+    [digit1, digit2] = generate(2, 50)
     return ([f'{digit1} {digit2}', nod(digit1, digit2)])

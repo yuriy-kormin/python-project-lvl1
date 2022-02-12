@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 import prompt
+from random import randint
 from brain_games.scripts.cli import welcome_user
 
 
 def ask_question(question):
+    ''' prompt a question and return answer'''
     print("Question: " + str(question))
     return prompt.string(empty=True, prompt='Your answer: ')
 
 
 def fill_question_array(logic_function, attempts=3):
+    ''' Fill array of questions by logic function'''
     question_answer = []
     for i in range(attempts):
         question_answer.append(logic_function())
@@ -41,9 +44,9 @@ def engine(rules, function):
         print(f"Let's try again, {user}!")
 
 
-def main():
-    pass
-
-
-if __name__ == "__main__":
-    main()
+def generate(num, limit, start=0):
+    '''generate num random number limited by limit'''
+    result = []
+    for i in range(num):
+        result.append(randint(start, limit))
+    return result

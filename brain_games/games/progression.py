@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-from random import randint
+from brain_games.scripts.games_logic import generate
 
 
 def progression():
     '''Generate arithmetic progression with missng member'''
-    start = randint(1, 50)
-    step = randint(1, 9)
-    length = randint(5, 10)
-    missing_pos = randint(0, length - 1)
+    [start, step] = generate(2, 9)
+    [length] = generate(1, 10, 5)
+    [missing_pos] = generate(1, length - 1)
     if missing_pos == 0:
         question = ".."
     else:
@@ -21,4 +20,4 @@ def progression():
             answer = cur_val
         else:
             question += " " + str(cur_val)
-    return[question, answer]
+    return [question, answer]
