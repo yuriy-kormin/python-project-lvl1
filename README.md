@@ -34,7 +34,7 @@ python3 brain_games/python-project-lvl1/scripts/brain_calc
     
 <H3> Brain-gcd </H3>
 
-    [![asciicast](https://asciinema.org/a/469451.svg)](https://asciinema.org/a/469451?t=51)
+    [![asciicast](https://asciinema.org/a/469451.svg)](https://asciinema.org/a/469451)
     
 <H3> Brain-progression </H3>    
 
