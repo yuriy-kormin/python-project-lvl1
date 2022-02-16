@@ -5,7 +5,7 @@ from random import randint
 RULES_PROGRESSION = "What number is missing in the progression?"
 
 
-def progression():
+def get_progression():
     '''Generate arithmetic progression with missng member'''
     start_digit = randint(2, 9)
     step = randint(2, 9)

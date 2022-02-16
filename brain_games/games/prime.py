@@ -6,7 +6,7 @@ RULES_PRIME = "Answer \"yes\" if given number is prime. "
 RULES_PRIME += "Otherwise answer \"no\"."
 
 
-def prime():
+def get_prime():
     ''' Generate digit and returm is it prime '''
     digit = randint(1, 50)
     answer = 'yes'

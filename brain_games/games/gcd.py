@@ -5,7 +5,7 @@ from random import randint
 RULES_GCD = "Find the greatest common divisor of given numbers."
 
 
-def gcd():
+def get_gcd():
     ''' Generate 2 digits and return greatest common divisor of it '''
     operand_left = randint(1, 50)
     operand_right = randint(1, 50)

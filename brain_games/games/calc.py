@@ -6,7 +6,7 @@ import operator
 RULES_CALC = 'What is the result of the expression?'
 
 
-def calc():
+def get_calc():
     ''' Generate math expression and calculate it '''
     operations = {
         '+': operator.add,
