@@ -38,8 +38,8 @@ python3 brain_games/python-project-lvl1/scripts/brain_calc
     
 <H3> Brain-progression </H3>    
 
-    <a href ="https://asciinema.org/a/x1cpPnPtlbVCP4hozfj2Gp53r">brain-progression</a>
+[![asciicast](https://asciinema.org/a/469458.svg)](https://asciinema.org/a/469458)
 
 <H3> Brain-prime </H3>    
 
-    <a href ="https://asciinema.org/a/DqRS1Z8Ew0cxXXzHjtGj4ii2U">brain-prime</a>
+[![asciicast](https://asciinema.org/a/469459.svg)](https://asciinema.org/a/469459)

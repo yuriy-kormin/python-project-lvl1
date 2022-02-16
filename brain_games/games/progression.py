@@ -1,23 +1,27 @@
 #!/usr/bin/env python3
-from brain_games.scripts.games_logic import generate
+from random import randint
+
+
+RULES_PROGRESSION = "What number is missing in the progression?"
 
 
 def progression():
     '''Generate arithmetic progression with missng member'''
-    [start, step] = generate(2, 9)
-    [length] = generate(1, 10, 5)
-    [missing_pos] = generate(1, length - 1)
-    if missing_pos == 0:
+    start_digit = randint(2, 9)
+    step = randint(2, 9)
+    length = randint(5, 10)
+    missing_position = randint(0, length - 1)
+    if missing_position == 0:
         question = ".."
+        answer = start_digit
     else:
-        question = str(start)
-    cur_val = start
-    answer = start
+        question = str(start_digit)
+    current_value = start_digit
     for i in range(1, length):
-        cur_val += step
-        if i == missing_pos:
+        current_value += step
+        if i == missing_position:
             question += " " + ".."
-            answer = cur_val
+            answer = current_value
         else:
-            question += " " + str(cur_val)
-    return [question, answer]
+            question += " " + str(current_value)
+    return question, answer

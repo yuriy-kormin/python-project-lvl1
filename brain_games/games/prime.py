@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
-from brain_games.scripts.games_logic import generate
+from random import randint
 
 
-def is_prime(number):
-    ''' Check number is prime '''
-    if number != 1:
-        for i in range(2, number):
-            if not number % i:
-                return "no"
-    return "yes"
+RULES_PRIME = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
 
 
 def prime():
     ''' Generate digit and returm is it prime '''
-    [digit] = generate(1, 50)
-    return [digit, is_prime(digit)]
+    digit = randint (1,50)
+    answer  = 'yes'
+    if digit != 1:
+        for i in range(2, digit):
+            if not digit % i:
+                answer = 'no'
+    return digit, answer
