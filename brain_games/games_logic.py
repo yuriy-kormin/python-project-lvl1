@@ -1,21 +1,23 @@
+#!/usr/bin/env python3
 import prompt
 from brain_games.cli import welcome_user
 ATTEMPTS = 3
 
 
-def engine(game):
+def engine(function, rules):
     '''
-        engine to run the game
+        rules - string to show user to explain game rules
+        function - name of def, which make logic of game
     '''
     user = welcome_user()
     print(f"Hello, {user}!")
-    print(game.get_rules())
+    print(rules)
     correct_answers = 0
     attempt = 1
     while attempt <= ATTEMPTS:
-        question, right_answer = game.get_question_answer()
+        question, right_answer = function()
         print(f'Question: {question}')
-        answer = prompt.string(empty=True, prompt='Your answer: ')
+        answer = prompt.string(empty=True, prompt ='Your answer: ')
         if str(answer) == str(right_answer):
             print("Correct!")
             correct_answers += 1

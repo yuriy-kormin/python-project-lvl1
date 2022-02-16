@@ -24,8 +24,11 @@ git clone https://github.com/yuriy-kormin/python-project-lvl1.git
 python3 brain_games/python-project-lvl1/scripts/brain_calc
 ```
 ## Example of project runs: 
+<H3> Brain-even </H3>
+
+[![asciicast](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz.svg)](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz)
+
 <ul>
-    <li><a href ="https://asciinema.org/a/l4Qnx6DoTCFgXwty7qsi0B3E8">brain-even</a></li>
     <li><a href ="https://asciinema.org/a/yXU65Tae5oUFJfQxeanG2D9mO">brain-calc</a></li>
     <li><a href ="https://asciinema.org/a/AsTYWKeMuD331jRarrcinkGHl">brain-gcd</a></li>
     <li><a href ="https://asciinema.org/a/x1cpPnPtlbVCP4hozfj2Gp53r">brain-progression</a></li>
