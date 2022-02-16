@@ -17,7 +17,7 @@ def engine(function, rules):
     while attempt <= ATTEMPTS:
         question, right_answer = function()
         print(f'Question: {question}')
-        answer = prompt.string(empty=True, prompt ='Your answer: ')
+        answer = prompt.string(empty=True, prompt='Your answer: ')
         if str(answer) == str(right_answer):
             print("Correct!")
             correct_answers += 1

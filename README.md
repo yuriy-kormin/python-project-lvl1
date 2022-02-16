@@ -28,9 +28,18 @@ python3 brain_games/python-project-lvl1/scripts/brain_calc
 
 [![asciicast](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz.svg)](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz)
 
-<ul>
-    <li><a href ="https://asciinema.org/a/yXU65Tae5oUFJfQxeanG2D9mO">brain-calc</a></li>
-    <li><a href ="https://asciinema.org/a/AsTYWKeMuD331jRarrcinkGHl">brain-gcd</a></li>
-    <li><a href ="https://asciinema.org/a/x1cpPnPtlbVCP4hozfj2Gp53r">brain-progression</a></li>
-    <li><a href ="https://asciinema.org/a/DqRS1Z8Ew0cxXXzHjtGj4ii2U">brain-prime</a></li>
-</ul>
+<H3> Brain-calc </H3>
+
+[![asciicast](https://asciinema.org/a/469445.svg)](https://asciinema.org/a/469445)
+    
+<H3> Brain-gcd </H3>
+
+    <a href ="https://asciinema.org/a/AsTYWKeMuD331jRarrcinkGHl">brain-gcd</a>
+    
+<H3> Brain-progression </H3>    
+
+    <a href ="https://asciinema.org/a/x1cpPnPtlbVCP4hozfj2Gp53r">brain-progression</a>
+
+<H3> Brain-prime </H3>    
+
+    <a href ="https://asciinema.org/a/DqRS1Z8Ew0cxXXzHjtGj4ii2U">brain-prime</a>
