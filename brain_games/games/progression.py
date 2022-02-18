@@ -19,17 +19,4 @@ def get_question_answer():
     answer = str(progression[missing_member_index])
     progression[missing_member_index] = '..'
     question = " ".join([str(elem) for elem in progression])
-    # if missing_position == 0:
-    #     question = ".."
-    #     answer = start_digit
-    # else:
-    #     question = str(start_digit)
-    # current_value = start_digit
-    # for i in range(1, length):
-    #     current_value += step
-    #     if i == missing_position:
-    #         question += " " + ".."
-    #         answer = current_value
-    #     else:
-    #         question += " " + str(current_value)
     return question, answer
