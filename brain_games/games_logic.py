@@ -4,20 +4,19 @@ from brain_games.cli import welcome_user
 ATTEMPTS = 3
 
 
-def engine(function, rules):
+def engine(game):
     '''
-        rules - string to show user to explain game rules
-        function - name of def, which make logic of game
+    engine to run game
     '''
     user = welcome_user()
     print(f"Hello, {user}!")
-    print(rules)
+    print(game.get_rules())
     correct_answers = 0
     attempt = 1
     while attempt <= ATTEMPTS:
-        question, right_answer = function()
+        question, right_answer = game.get_question_answer()
         print(f'Question: {question}')
-        answer = prompt.string(empty=True, prompt ='Your answer: ')
+        answer = prompt.string(empty=True, prompt='Your answer: ')
         if str(answer) == str(right_answer):
             print("Correct!")
             correct_answers += 1
