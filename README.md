@@ -3,6 +3,13 @@
 
 # Brain games
 Several simple console games
+<ul>
+    <li>BRAIN-EVEN. Answer to question : is it digit an even or not?</li> 
+    <li>BRAIN-EVEN. Can you calculate arithmetic expression?</li>
+    <li>BRAIN-GCD. Find a great common divisor of a pair of numbers</li>
+    <li>BRAIN-PROGRESSION. Find a missing member of arithmetic progression</li>
+    <li>BRAIN-PRIME. Answer to question : is it digit an prime or not?
+</ul>
 <br><br>
 
 
@@ -25,12 +32,12 @@ python3 brain_games/python-project-lvl1/scripts/brain_calc
 ```
 ## Example of project runs: 
 <H3> Brain-even </H3>
-
-[![asciicast](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz.svg)](https://asciinema.org/a/t0cg6UqPAucs1U7EqDrU4JRjz)
-
-<ul>
-    <li><a href ="https://asciinema.org/a/yXU65Tae5oUFJfQxeanG2D9mO">brain-calc</a></li>
-    <li><a href ="https://asciinema.org/a/AsTYWKeMuD331jRarrcinkGHl">brain-gcd</a></li>
-    <li><a href ="https://asciinema.org/a/x1cpPnPtlbVCP4hozfj2Gp53r">brain-progression</a></li>
-    <li><a href ="https://asciinema.org/a/DqRS1Z8Ew0cxXXzHjtGj4ii2U">brain-prime</a></li>
-</ul>
+[![asciicast](https://asciinema.org/a/469438.svg)](https://asciinema.org/a/469438)
+<h3>brain-calc</h3>
+[![asciicast](https://asciinema.org/a/469445.svg)](https://asciinema.org/a/469445)
+<h3>brain-gcd</h3>
+[![asciicast](https://asciinema.org/a/469451.svg)](https://asciinema.org/a/469451)
+<h3>brain-progression</h3>
+[![asciicast](https://asciinema.org/a/469458.svg)](https://asciinema.org/a/469458)
+<h3>brain-prime</h3>
+[![asciicast](https://asciinema.org/a/469459.svg)](https://asciinema.org/a/469459)
