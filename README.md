@@ -32,12 +32,17 @@ python3 brain_games/python-project-lvl1/scripts/brain_calc
 ```
 ## Example of project runs: 
 <H3> Brain-even </H3>
+
 [![asciicast](https://asciinema.org/a/469438.svg)](https://asciinema.org/a/469438)
 <h3>brain-calc</h3>
+
 [![asciicast](https://asciinema.org/a/469445.svg)](https://asciinema.org/a/469445)
 <h3>brain-gcd</h3>
+
 [![asciicast](https://asciinema.org/a/469451.svg)](https://asciinema.org/a/469451)
 <h3>brain-progression</h3>
+
 [![asciicast](https://asciinema.org/a/469458.svg)](https://asciinema.org/a/469458)
 <h3>brain-prime</h3>
+
 [![asciicast](https://asciinema.org/a/469459.svg)](https://asciinema.org/a/469459)
