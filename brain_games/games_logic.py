@@ -12,8 +12,7 @@ def engine(game):
     print(f"Hello, {user}!")
     print(game.get_rules())
     correct_answers = 0
-    attempt = 1
-    while attempt <= ATTEMPTS:
+    for attempt in range(ATTEMPTS):
         question, right_answer = game.get_question_answer()
         print(f'Question: {question}')
         answer = prompt.string(empty=True, prompt='Your answer: ')
@@ -25,7 +24,6 @@ def engine(game):
             result += f" Correct answer was '{right_answer}'."
             print(result)
             break
-        attempt += 1
     if correct_answers == ATTEMPTS:
         print(f"Congratulations, {user}!")
     else:
