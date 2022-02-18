@@ -5,7 +5,11 @@ import operator
 RULES_CALC = 'What is the result of the expression?'
 
 
-def get_calc():
+def get_rules():
+    return RULES_CALC
+
+
+def get_get_question_answe():
     ''' Generate math expression and calculate it '''
     operations = {
         '+': operator.add,
