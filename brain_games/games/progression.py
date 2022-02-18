@@ -14,7 +14,7 @@ def get_question_answer():
     step = randint(1, 9)
     length = randint(5, 10)
     end_digit = start_digit + step * (length - 1)
-    progression = [i for i in (range(start_digit, end_digit+1, step))]
+    progression = [i for i in (range(start_digit, end_digit + 1, step))]
     missing_member = choice(progression)
     missing_member_index = progression.index(missing_member)
     progression[missing_member_index] = '..'
