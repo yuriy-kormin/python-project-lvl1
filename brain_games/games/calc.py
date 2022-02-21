@@ -2,11 +2,8 @@ from random import randint, choice
 import operator
 
 
-RULES_CALC = 'What is the result of the expression?'
-
-
 def get_rules():
-    return RULES_CALC
+    return 'What is the result of the expression?'
 
 
 def get_question_answer():
@@ -22,4 +19,4 @@ def get_question_answer():
 
     question = f"{operand_left} {operation} {operand_right}"
     answer = operations[operation](operand_left, operand_right)
-    return question, answer
+    return question, str(answer)
