@@ -11,7 +11,7 @@ def is_prime(digit):
     if digit < 2:
         return False
     else:
-        for i in range(2, digit//2 + 1):
+        for i in range(2, digit // 2 + 1):
             if not digit % i:
                 return False
     return True
