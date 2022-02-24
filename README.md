@@ -1,5 +1,6 @@
 <a href="https://codeclimate.com/github/yuriy-kormin/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5e7bda007d52003e2d00/maintainability" /></a>
 ![linter-run](https://github.com/yuriy-kormin/python-project-lvl1/actions/workflows/linter-run.yml/badge.svg)
+![hexlet-check](https://github.com/yuriy-kormin/python-project-lvl1/workflows/hexlet-check/badge.svg)
 
 # Brain games
 Several simple console games
