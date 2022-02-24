@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import prompt
-from brain_games.cli import welcome_user
 
 
 def run_game(game):
@@ -8,7 +7,7 @@ def run_game(game):
     engine to run game
     '''
     game_rounds_count = 3
-    user_name = welcome_user()
+    user_name = prompt.string(empty=False, prompt='May I have your name? ')
     print(f"Hello, {user_name}!")
     print(game.get_rules())
     for attempt in range(game_rounds_count):
