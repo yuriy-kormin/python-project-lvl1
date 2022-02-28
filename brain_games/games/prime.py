@@ -1,8 +1,7 @@
 from random import randint
 
 
-def get_rules():
-    return "Answer \"yes\" if given number is prime. \
+Description = "Answer \"yes\" if given number is prime. \
 Otherwise answer \"no\"."
 
 

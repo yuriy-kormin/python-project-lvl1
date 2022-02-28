@@ -1,8 +1,7 @@
 from random import randint
 
 
-def get_rules():
-    return "Find the greatest common divisor of given numbers."
+Description = "Find the greatest common divisor of given numbers."
 
 
 def get_gcd(operand_left, operand_right):

@@ -1,8 +1,7 @@
 from random import randint, choice
 
 
-def get_rules():
-    return "What number is missing in the progression?"
+Description = "What number is missing in the progression?"
 
 
 def get_question_answer():
