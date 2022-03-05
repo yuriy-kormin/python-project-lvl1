@@ -6,7 +6,7 @@
 Several simple console games
 <ul>
     <li>BRAIN-EVEN. Answer to question : is it digit an even or not?</li> 
-    <li>BRAIN-EVEN. Can you calculate arithmetic expression?</li>
+    <li>BRAIN-CALC. Can you calculate arithmetic expression?</li>
     <li>BRAIN-GCD. Find a great common divisor of a pair of numbers</li>
     <li>BRAIN-PROGRESSION. Find a missing member of arithmetic progression</li>
     <li>BRAIN-PRIME. Answer to question : is it digit an prime or not?
