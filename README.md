@@ -13,13 +13,15 @@ Several simple console games
 </ul>
 <br><br>
 
+## Simple running (Docker)
+You can install [docker](https://www.docker.com/) and just type:
+
+    docker run -it tork83/brain_games
 
 ## Installation
 You need Python 3.8 and prompt module
 ```bash
 apt install python3.8
-```
-```bash
 pip3 install prompt
 ```
 After this, download and install package
